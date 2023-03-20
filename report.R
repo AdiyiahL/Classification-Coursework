@@ -18,7 +18,7 @@ library("mlr3verse")
 set.seed(100) # set seed for reproducibility
 
 # Load data
-ploan <- read.csv("E:/DurhamLecture/ASML/Classification/summative/bank_personal_loan.csv")
+ploan <- read.csv("bank_personal_loan.csv")
 attach(ploan)
 head(ploan)
 ploan[,9]<-factor(ploan[,9])   
